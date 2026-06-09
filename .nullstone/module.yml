@@ -1,0 +1,17 @@
+org_name: nullstone
+name: k8s-otel-langfuse-extender
+friendly_name: Langfuse OpenTelemetry Extender
+description: Extends an OpenTelemetry collector to export to Langfuse
+category: datastore
+subcategory: ""
+provider_types:
+    - aws
+    - gcp
+platform: otel-extender
+subplatform: langfuse
+type: ""
+appCategories: []
+is_public: true
+tool_name: opentofu
+include: []
+source_url: https://github.com/nullstone-modules/k8s-otel-langfuse-extender
